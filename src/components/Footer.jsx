@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://instagram.com/gdscsctce"><i class="fa-brands fa-xl fa-instagram"></i></a>
         <a href="https://discord.gg/HgKeTZK5yN"><i class="fa-brands fa-xl fa-discord"></i></a>
         </div>
-        <h6 className='credits'>Made by <a href="www.linkedin.com/in/aswnss">@aswnss</a> </h6>
+        <h6 className='credits'>Made by <a href="https://www.linkedin.com/in/aswnss">@aswnss</a> </h6>
     </div>
   )
 }
