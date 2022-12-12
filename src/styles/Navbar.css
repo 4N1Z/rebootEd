@@ -7,6 +7,17 @@
     align-items: center;
 }
 .navbar a{
-    padding:1em;
+    padding:.5em;
     margin: 1em;
+    color: white;
+    text-decoration: none;
 }
+.navbar img{
+    max-height:2em ;
+}
+@media screen and(max-width: 750px) {
+    #gdsc-logo{
+     width: max-content;   
+    }
+}
+    
