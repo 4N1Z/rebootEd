@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Questions from './components/Questions'
 import './styles/App.css'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Questions/>
+      <Footer/>
     </div>
   )
 }

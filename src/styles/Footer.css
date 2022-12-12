@@ -1,0 +1,13 @@
+.Footer{
+    margin-top: 1em ;
+    background-color: var(--accent-color);
+    height: 30vh;
+    display: flex;
+    float: bottom;
+    justify-content: center;
+}
+.footer-credits{
+    /* float: bottom; */
+    text-align: center;
+    align-self: flex-end;
+}
