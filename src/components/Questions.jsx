@@ -22,7 +22,7 @@ function Questions(params) {
       <div className='Questions'>
       <h1>HTML Questions</h1>
       <table>
-        <th>Quesion</th>
+        <th>Question</th>
         {questions.map(item => (
         <tr key={item.id}>
           <td className='question-card'>{item.question}</td>
