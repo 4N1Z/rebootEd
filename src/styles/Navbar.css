@@ -1,7 +1,7 @@
 .navbar{
     /* height: max-content; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: var(--accent-color);
     color:black;
     align-items: center;
@@ -15,9 +15,16 @@
 .navbar img{
     max-height:2em ;
 }
-@media screen and(max-width: 750px) {
+#gdsc-logo{
+    content: url("../assets/gdsc-black.png");
+
+} 
+@media screen and (max-width: 750px) {
     #gdsc-logo{
-     width: max-content;   
+        content: url("../assets/gdsc symbol.png");
+    }
+    .navbar img{
+        max-height: 1.5em ;
     }
 }
     
