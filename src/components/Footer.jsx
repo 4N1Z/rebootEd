@@ -1,8 +1,12 @@
 import React from 'react'
 import "../styles/Footer.css"
-function Footer() {
+function Footer(props) {
   return (
-    <div className='Footer'>
+    <div className='Footer'
+    style={
+      {marginTop : props.margin}
+    }
+    >
         <div className="socialmedia" id='socialmedia'>
         <h4>Follow Us : </h4>
         <a href="https://www.linkedin.com/company/gdsc-sctce/"><i class="fa-brands fa-xl fa-linkedin"></i></a>

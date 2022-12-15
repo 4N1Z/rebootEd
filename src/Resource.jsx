@@ -6,8 +6,8 @@ export default function Resource(){
     return(
         <>
         <Navbar/>
-        <Questions/>
-        <Footer/>
+        <h1>UNDER CONSTRUCTION</h1>
+        <Footer margin="100%"/>
         </>
     );
 }
