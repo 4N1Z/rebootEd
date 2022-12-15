@@ -1,16 +1,19 @@
-import Navbar from './components/Navbar'
-import Questions from './components/Questions'
-import './styles/App.css'
-import Footer from './components/Footer'
 
+import './styles/App.css'
+import {Route,Routes} from 'react-router-dom'
+import Resource from './Resource';
+import Home from './Home';
+import Error from './Error';
 function App() {
 
 
   return (
     <div className="App">
-      <Navbar/>
-      <Questions/>
-      <Footer/>
+       <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/resource' element={<Resource/>}/>
+        <Route path='*' element={<Error/>}/>
+       </Routes>
     </div>
   )
 }
