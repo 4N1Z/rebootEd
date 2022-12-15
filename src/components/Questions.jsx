@@ -21,14 +21,14 @@ function Questions(params) {
     <div className="Questions-container">
       <div className='Questions'>
       <h1>HTML Questions</h1>
-      <table>
-        <th>Question</th>
+      <div>
+        <h1>Questions</h1>
         {questions.map(item => (
-        <tr key={item.id}>
-          <td className='question-card'>{item.question}</td>
-        </tr>
+        <div className='question-card' key={item.id}>
+          <p>{item.question}</p>
+        </div>
       ))}
-      </table>
+      </div>
     </div>
     </div>
   )

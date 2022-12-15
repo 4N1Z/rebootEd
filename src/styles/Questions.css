@@ -14,11 +14,12 @@ h1{
     margin-top:45px;
 }
 
-td{
+.question-card{
     padding:2em;
     font-weight: light;
-    background-color: #f0f0f0;
+    background-color:var(--off-white);
     border-radius: 10px;
-    text-align: center;
     border: .15em solid var(--accent-color);
+    text-align: left;
+    margin-bottom:15px;
 }
