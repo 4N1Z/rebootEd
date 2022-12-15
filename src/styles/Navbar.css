@@ -6,13 +6,15 @@
     color:black;
     align-items: center;
     padding-top: 15px;
-    width: 100vw;
 }
 .navbar a{
     padding:.5em;
     margin: 1em;
     color: white;
     text-decoration: none;
+}
+.navbar a:hover{
+    color:black;
 }
 .navbar img{
     max-height:2em ;
