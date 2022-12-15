@@ -1,12 +1,11 @@
 .navbar{
-    /* height: max-content; */
+    height: max-content;
     display: flex;
     flex-direction: column;
     background-color: var(--accent-color);
     color:black;
     align-items: center;
     padding-top: 15px;
-    position: fixed;
     width: 100vw;
 }
 .navbar a{

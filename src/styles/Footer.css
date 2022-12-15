@@ -1,10 +1,8 @@
 .Footer{
     margin-top: 1em ;
     background-color: var(--accent-color);
-    /* height: 30vh; */
     display: flex;
     flex-direction: column;
-    float: bottom;
     justify-content: center;
     align-items: center;
     color: white;
